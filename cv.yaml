@@ -2,17 +2,24 @@
 # https://github.com/haath/yaml-cv
 
 details:
-  first_name:
-  last_name:
-  title:
+  first_name: Name
+  last_name: Lastname
+  title: DevOps engineer
 
-profile: ""
-
+profile: |
+  Focused, energetic and motivated to learn DevOps.
+  
 contact:
-- text:
-  url: "mailto:"
+- text: my@domain.net
+  url: "mailto:my@domain.net"
   icon: email
 
 technical:
-  - category: ""
-    items: []
+  - category: "Languages"
+    items: python, golang
+  - category: "Containers & Orchestration"
+    items: docker, docker-compose, k8s
+  - category: "CI/CD"
+    items: jenkins, GitHub Actions
+  - category: "Cloud"
+    items: AWS
