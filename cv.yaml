@@ -1,0 +1,18 @@
+# structure is based on yaml-cv
+# https://github.com/haath/yaml-cv
+
+details:
+  first_name:
+  last_name:
+  title:
+
+profile: ""
+
+contact:
+- text:
+  url: "mailto:"
+  icon: email
+
+technical:
+  - category: ""
+    items: []
