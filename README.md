@@ -3,14 +3,17 @@
 
 ## Настройка
 
-Для автоматической проверки корректности синтаксиса YAML, проект использует [pre-commit](https://pre-commit.com)
+Для автоматической проверки корректности синтаксиса YAML, проект использует [pre-commit](https://pre-commit.com).
+
 Требуется [установить](https://pre-commit.com/#installation) его любым удобным способом.
-Например для MacOS X:
+
+Например, для MacOS X:
 ```shell
 brew install pre-commit
 ```
 
-А затем иницализировать:
+А затем инициализировать:
 ```shell
 pre-commit install
+pre-commit run --all-files
 ```
