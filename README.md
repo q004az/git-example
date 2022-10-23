@@ -5,7 +5,7 @@
 
 Установите [yq v4](https://mikefarah.gitbook.io/yq/), например:
 ```shell
-brew install yq==
+brew install yq@4
 ```
 
 Установите [yaml-cv](https://github.com/haath/yaml-cv):
