@@ -31,7 +31,7 @@ WORKDIR /opt/app
 RUN task build
 
 FROM busybox as release
-LABEL org.opencontainers.image.authors="ostashkin.mike@gmail.com"
+LABEL org.opencontainers.image.authors="shadchinnazar.@gmail.com"
 
 WORKDIR /opt/app
 COPY --from=build /opt/app/build/cv.html cv.html
