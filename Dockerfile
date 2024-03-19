@@ -1,5 +1,5 @@
 FROM alpine:3.14 as builder
-LABEL org.opencontainers.image.authors="ostashkin.mike@gmail.com"
+LABEL org.opencontainers.image.authors="shadchinnazar.@gmail.com"
 
 ARG YQ_VERSION=v4.29.2
 ARG YQ_BINARY=yq_linux_amd64
